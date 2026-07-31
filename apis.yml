@@ -1,8 +1,16 @@
 aid: opalite-health
 name: Opalite Health
-description: Opalite Health is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Opalite Health is building the language layer for healthcare. Its platform delivers
+  real-time, AI-powered medical interpretation across 150+ languages, validated against
+  certified human interpreters and engineered for HIPAA-aligned, clinical-grade use. Opalite
+  connects providers and patients with limited English proficiency in seconds — through EHR
+  workflows and rapid healthcare deployment — to close language gaps that drive health
+  inequities and poor outcomes. The company publishes a marketing and validation-study
+  presence but does not operate a public developer API program; api.opalitehealth.com is a
+  private application backend. This profile was surfaced as a Y Combinator portfolio company
+  and enriched with the company's real identity, compliance posture (HIPAA, SOC 2 Type II,
+  AES-256 encryption), and domain-security probes.
 url: https://raw.githubusercontent.com/api-evangelist/opalite-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +18,62 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://opalitehealth.com/opengraph-image
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Medical Interpretation
+- Artificial Intelligence
+- Language Access
+- Translation
+- HIPAA
+- Health Equity
+- Digital Health
 apis: []
+common:
+- type: TrustCenter
+  url: security/opalite-health-trust-center.yml
+- type: DomainSecurity
+  url: security/opalite-health-domain-security.yml
+- url: https://opalitehealth.com
+  type: Website
+- url: https://opalitehealth.com/product
+  type: Product
+- url: https://opalitehealth.com/company
+  type: About
+- url: https://opalitehealth.com/blog
+  type: Blog
+- url: https://opalitehealth.com/security
+  type: Security
+- url: https://opalitehealth.com/security
+  type: Compliance
+- url: https://opalitehealth.com/privacy
+  type: PrivacyPolicy
+- url: https://opalitehealth.com/contact
+  type: Support
+- url: https://opalitehealth.com/demo
+  type: SignUp
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
