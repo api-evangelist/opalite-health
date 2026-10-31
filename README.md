@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Opalite Health is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Opalite Health is building the language layer for healthcare. Its platform delivers real-time, AI-powered medical interpretation across 150+ languages, validated against certified human interpreters and engineered for HIPAA-aligned, clinical-grade use. Opalite connects providers and patients with limited English proficiency in seconds — through EHR workflows and rapid healthcare deployment — to close language gaps that drive health inequities and poor outcomes. The company publishes a marketing and validation-study presence but does not operate a public developer API program; api.opalitehealth.com is a private application backend. This profile was surfaced as a Y Combinator portfolio company and enriched with the company's real identity, compliance posture (HIPAA, SOC 2 Type II, AES-256 encryption), and domain-security probes.
 
-Backed by: y-combinator
+**Areas:** Company · Healthcare · Medical Interpretation · Artificial Intelligence · Language Access · Translation · HIPAA · Health Equity · Digital Health
+
+## Opalite Health on APIs.io
+
+Everything profiled for Opalite Health is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/opalite-health/](https://apis.io/providers/opalite-health/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Opalite Health Domain Security](https://apis.io/security/opalite-health/opalite-health-domain-security/)
+- [Opalite Health Trust Center](https://apis.io/security/opalite-health/opalite-health-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://opalitehealth.com)
+- [Sign up](https://opalitehealth.com/demo)
+- [Support](https://opalitehealth.com/contact)
+- [Blog](https://opalitehealth.com/blog)
+- [Security](https://opalitehealth.com/security)
+- [Compliance](https://opalitehealth.com/security)
+- [Privacy policy](https://opalitehealth.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 15.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 39.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.0** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/opalite-health/](https://apis.io/providers/opalite-health/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Opalite Health: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/opalite-health/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
